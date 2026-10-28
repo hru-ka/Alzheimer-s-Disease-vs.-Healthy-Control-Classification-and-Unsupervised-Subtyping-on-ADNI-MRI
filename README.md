@@ -2,6 +2,8 @@
 AD vs. HC classification on ADNI structural MRI using AAL atlas ROI features. Logistic Regression, SVM and MLP with stratified 5-fold CV and class-imbalance handling (106 AD / 346 HC), plus PCA + KMeans clustering of healthy controls with seed-stability (ARI) checks.
 This is using AAL ROI features extracted from spatially-normalized ADNI MRI scans.
 
+project partner : ANY DAS
+
 - **Task A** — Unsupervised learning on HC (PCA + clustering + stability checks)
 - **Task B** — AD vs HC classification (LogReg / SVM / MLP, cross-validated)
 
